@@ -95,5 +95,6 @@ Question 5: Analyse the Nessus file
  4. Can you find any exploit related to this vulnerability: Yes, in vulnerablity information there is `Exploit Available:true` and `Exploit Ease:Exploits are available`
 <img width="270" height="184" alt="image" src="https://github.com/user-attachments/assets/863c4bda-d4ec-46f6-a54c-495e58495eca" />
 
- 5. Find CVE for this vulnerability: CVE-2020-1938
-    <img width="960" height="1063" alt="image" src="https://github.com/user-attachments/assets/0a6f994c-0e95-491b-94ed-5f0072d954e8" />
+ 5. Find CVE for this vulnerability: CVE-2020-1938, CVE-2020-1745
+    <img width="477" height="156" alt="image" src="https://github.com/user-attachments/assets/b986423d-2772-4581-9b8f-e7f094058591" />
+
