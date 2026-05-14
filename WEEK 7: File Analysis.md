@@ -75,3 +75,25 @@ Image 3:
 Answer: Windows
 
 Question 5: Analyse the Nessus file
+- open Nessus
+- click import
+<img width="956" height="1072" alt="image" src="https://github.com/user-attachments/assets/148aa6e1-4eb0-4a30-81e0-3982134f1f0d" />
+- select the Nessus_Scan.nessus file
+- then click the name shows in My Scans
+<img width="957" height="1055" alt="image" src="https://github.com/user-attachments/assets/44271aad-351c-4103-b149-51a95ef9ec55" />
+- click the vulnerabilities section
+<img width="953" height="1079" alt="image" src="https://github.com/user-attachments/assets/23691b78-aefe-492c-95c9-cf669bf05d4d" />
+- using filter search for "Ghostcat" or manually search
+- then the vulnerability shows
+<img width="968" height="1074" alt="image" src="https://github.com/user-attachments/assets/3690a04b-329e-453d-b4d0-88ae8ef86912" />
+ 1. What is the affected Port Number: 8009
+    
+ 2. What is the affected protocol: AJP (Apache JServer Protocol)
+ 
+ 3. what is the CVSS Score of vulnerability found: CVSS v3.0 Base Score (9.8)
+ 
+ 4. Can you find any exploit related to this vulnerability: Yes, in vulnerablity information there is `Exploit Available:true` and `Exploit Ease:Exploits are available`
+<img width="270" height="184" alt="image" src="https://github.com/user-attachments/assets/863c4bda-d4ec-46f6-a54c-495e58495eca" />
+
+ 5. Find CVE for this vulnerability: CVE-2020-1938
+    <img width="960" height="1063" alt="image" src="https://github.com/user-attachments/assets/0a6f994c-0e95-491b-94ed-5f0072d954e8" />
